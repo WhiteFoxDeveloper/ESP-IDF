@@ -1,0 +1,107 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"terminal.integrated.shell.windows" : "cmd.exe",
+		"terminal.integrated.shellArgs.windows" : [
+			"/k",
+			"D:/ESP/esp-idf/export.bat"
+		],
+			"actionButtons": {
+					"defaultColor": "white",
+					"reloadButton": "Reload",
+					"commands": [
+							{
+									"name": "Build",
+									"color": "white",
+									"command": "idf.py build"
+							},
+							{
+									"name": "FLASH",
+									"color": "white",
+									"command": "idf.py -p COM3 flash"
+							},
+							{
+									"name": "Monitor",
+									"color": "white",
+									"command": "idf.py -p COM3 monitor"
+							}
+					]
+			},
+		"files.associations": {
+			"cstddef": "c",
+			"task.h": "c",
+			"stdio.h": "c",
+			"gpio.h": "c",
+			"sdkconfig.h": "c",
+			"timer.h": "c",
+			"freertos.h": "c",
+			"mcp23s17.h": "c",
+			"main.h": "c",
+			"st7789.h": "c",
+			"fontx.h": "c",
+			"sstream": "c",
+			"random": "c",
+			"ranges": "c",
+			"math.h": "c",
+			"stdlib.h": "c",
+			"*.ipp": "c",
+			"espgui.h": "c",
+			"array": "c",
+			"chrono": "c",
+			"compare": "c",
+			"functional": "c",
+			"istream": "c",
+			"ostream": "c",
+			"ratio": "c",
+			"tuple": "c",
+			"type_traits": "c",
+			"utility": "c",
+			"string_view": "c",
+			"initializer_list": "c",
+			"stdint.h": "c",
+			"esp_log.h": "c",
+			"esp_err.h": "c",
+			"esp_system.h": "c",
+			"esp_vfs.h": "c",
+			"esp_spiffs.h": "c",
+			"esp_timer.h": "c",
+			"esp_idf_lib_helpers.h": "c",
+			"mcp23x17.h": "c",
+			"string.h": "c",
+			"encoder.h": "c",
+			"spi_master.h": "c",
+			"analogexpand.h": "c",
+			"adc.h": "c",
+			"instructions.h": "c",
+			"cstdint": "c",
+			"algorithm": "c",
+			"triggerevents.h": "c",
+			"*.tcc": "c",
+			"bit": "c",
+			"codecvt": "c",
+			"condition_variable": "c",
+			"list": "c",
+			"string": "c",
+			"optional": "c",
+			"future": "c",
+			"limits": "c",
+			"memory": "c",
+			"new": "c",
+			"esp_flash_spi_init.h": "c",
+			"stddef.h": "c",
+			"nvs_flash.h": "c",
+			"cstdio": "c",
+			"fstream": "c",
+			"matrix.h": "c",
+			"cmath": "c",
+			"malloc.h": "c",
+			"matrixgui.h": "c",
+			"stop_token": "c",
+			"stdbool.h": "c"
+		}
+	}
+}
